@@ -15,4 +15,4 @@
 //= require turbolinks
 //= require bootstrap-sprockets
 //= require_tree .
-console.log("Hello World")
+//= require jquery-ui
