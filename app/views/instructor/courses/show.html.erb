@@ -39,7 +39,7 @@
 
 <br />
 <div class="booyah-box col-10 offset-1">
-  <h1 class="text-center course-title"><%= current_course.title %></h1>
+  <h1 class="text-center course-title "><%= current_course.title %></h1>
   <br />
   <div class="text-center">
   <%= image_tag current_course.image, class: 'img-fluid' %>
@@ -58,8 +58,8 @@
   <ul class="sections">
     <% current_course.sections.rank(:row_order).each do |section| %>
       <li data-update-url="<%= instructor_section_path(section) %>" class="section-li">
-        <div class="header">
-          <span class="fa fa-list"></span>
+        <div class="header course-title">
+          <span class="fa fa-list course-title"></span>
           <%= section.title %>
         </div>
         <!-- Button trigger modal -->
