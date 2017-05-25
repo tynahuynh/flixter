@@ -10,8 +10,9 @@
 
 .navbar a.navbar-brand {
   font-family: "Helvetica Neue", Helvetica;
-  font-weight: 100;
-  color: gray;
+  font-weight: 900;
+  color: #9bc1bd;
+  font-size: 40px;
 }
 
 .navbar-classes {
@@ -31,6 +32,7 @@
 h1, h2, h3, h4, h5, h6, .nabvar {
   margin: 0;
 }
+
 
 .frosty {
   background: rgba(0, 0, 0, 0.5);
@@ -153,3 +155,32 @@ ul .header .fa {
 .lessons li p {
   margin: 0;
 }
+
+.course-image {
+  margin: auto;
+}
+
+.course-title {
+  color: #9bc1bd;
+}
+
+.course-index {
+  color: gray;
+}
+
+.course-description {
+  color: gray;
+}
+
+.webpage-details{
+  color: gray;
+}
+
+.dashboard-title {
+  color: gray;
+}
+
+.dashboard-course {
+  color: #9bc1bd;
+}
+

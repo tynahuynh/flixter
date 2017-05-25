@@ -39,19 +39,20 @@
 
 <br />
 <div class="booyah-box col-10 offset-1">
-  <h1 class="text-center"><%= current_course.title %></h1>
+  <h1 class="text-center course-title"><%= current_course.title %></h1>
   <br />
-
+  <div class="text-center">
   <%= image_tag current_course.image, class: 'img-fluid' %>
+  </div>
 
   <div class="text-center">
     <!-- Button trigger modal -->
-    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#newSectionModal">
+    <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#newSectionModal">
       Add a new section...
     </button>
   </div>
 
-  <%= link_to 'Preview As Student...', course_path(current_course), class: 'btn btn-warning float-right' %>
+  <%= link_to 'Preview As Student...', course_path(current_course), class: 'btn btn-outline-secondary float-right' %>
   <br class="clr" />
 
   <ul class="sections">
@@ -115,7 +116,7 @@
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          <%= f.submit "Add a section", class: 'btn btn-primary' %>
+          <%= f.submit "Add a section", class: 'btn btn-outline-primary' %>
         </div>
       <% end %>
     </div>
