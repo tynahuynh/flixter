@@ -22,6 +22,9 @@ rake db:migrate
 
 The application should now be running on your localhost.
 
+## Additional Setup
+You will need to set up your application with Stripe: https://stripe.com/ .
+
 ## Deployment
 To deploy on Heroku. Adjust the APP_NAME to your project name.
 ```
